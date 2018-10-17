@@ -10,11 +10,7 @@ import java.io.Serializable;
 public class Node implements Serializable,Cloneable{
 
 	
-	public String value;
-	public int positionX;
-	public int positionY;
-
-	
+	public String value;	
 	
 	//判断某坐标是否有落点
 	public boolean isReachable(){
@@ -31,8 +27,7 @@ public class Node implements Serializable,Cloneable{
 	public Node(String value,int X,int Y){
 		super();
 		this.value = value;
-		positionX = X;
-		positionY = Y;
+
 		
 	}
 	
